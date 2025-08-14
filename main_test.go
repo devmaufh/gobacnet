@@ -36,12 +36,12 @@ import (
 	"log"
 	"testing"
 
-	"github.com/alexbeltran/gobacnet/property"
+	"github.com/devmaufh/gobacnet/property"
 
-	"github.com/alexbeltran/gobacnet/types"
+	"github.com/devmaufh/gobacnet/types"
 )
 
-const interfaceName = "eth0"
+const interfaceName = "en0"
 const testServer = 1234
 
 // TestMain are general test

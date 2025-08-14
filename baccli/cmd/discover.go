@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alexbeltran/gobacnet"
-	"github.com/alexbeltran/gobacnet/types"
+	"github.com/devmaufh/gobacnet"
+	"github.com/devmaufh/gobacnet/types"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

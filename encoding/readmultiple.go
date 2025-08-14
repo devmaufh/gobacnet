@@ -1,7 +1,7 @@
 package encoding
 
 import (
-	bactype "github.com/alexbeltran/gobacnet/types"
+	bactype "github.com/devmaufh/gobacnet/types"
 )
 
 func (e *Encoder) ReadMultipleProperty(invokeID uint8, data bactype.ReadMultipleProperty) error {

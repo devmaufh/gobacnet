@@ -3,8 +3,8 @@ package gobacnet
 import (
 	"fmt"
 
-	"github.com/alexbeltran/gobacnet/property"
-	bactype "github.com/alexbeltran/gobacnet/types"
+	"github.com/devmaufh/gobacnet/property"
+	bactype "github.com/devmaufh/gobacnet/types"
 )
 
 func (c *Client) objectListLen(dev bactype.Device) (int, error) {

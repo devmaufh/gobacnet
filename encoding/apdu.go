@@ -34,7 +34,7 @@ package encoding
 import (
 	"fmt"
 
-	bactype "github.com/alexbeltran/gobacnet/types"
+	bactype "github.com/devmaufh/gobacnet/types"
 )
 
 func (e *Encoder) APDU(a bactype.APDU) error {

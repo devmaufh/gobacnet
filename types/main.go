@@ -223,3 +223,12 @@ func (dev Device) ObjectSlice() []Object {
 	}
 	return objs
 }
+
+type WritePropertyData struct {
+	Object     Object
+	Property   Property
+	Priority   uint8
+	ErrorClass uint8
+	ErrorCode  uint8
+	Value      interface{}
+}

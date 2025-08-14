@@ -36,8 +36,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/alexbeltran/gobacnet/encoding"
-	bactype "github.com/alexbeltran/gobacnet/types"
+	"github.com/devmaufh/gobacnet/encoding"
+	bactype "github.com/devmaufh/gobacnet/types"
 )
 
 // Close free resources for the client. Always call this function when using NewClient
@@ -126,7 +126,7 @@ func (c *Client) handleMsg(src *net.UDPAddr, b []byte) {
 			err := fmt.Errorf("Error Class %d Code %d", apdu.Error.Class, apdu.Error.Code)
 			err = c.tsm.Send(int(apdu.InvokeId), err)
 			if err != nil {
-				c.log.Debug("unable to send error to %d: %v", apdu.InvokeId, err)
+				c.log.Debugf("unable to send error to %d: %v", apdu.InvokeId, err)
 			}
 		default:
 			// Ignore it
