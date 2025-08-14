@@ -37,9 +37,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/alexbeltran/gobacnet/tsm"
-	bactype "github.com/alexbeltran/gobacnet/types"
-	"github.com/alexbeltran/gobacnet/utsm"
+	"github.com/devmaufh/gobacnet/tsm"
+	bactype "github.com/devmaufh/gobacnet/types"
+	"github.com/devmaufh/gobacnet/utsm"
 	"github.com/sirupsen/logrus"
 )
 

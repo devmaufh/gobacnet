@@ -3,7 +3,7 @@ package encoding
 import (
 	"fmt"
 
-	bactype "github.com/alexbeltran/gobacnet/types"
+	bactype "github.com/devmaufh/gobacnet/types"
 )
 
 func (e *Encoder) ReadMultiplePropertyAck(invokeID uint8, data bactype.ReadMultipleProperty) error {

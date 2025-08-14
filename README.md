@@ -1,6 +1,6 @@
 # goBACnet 
 [![Build Status](https://travis-ci.com/alexbeltran/gobacnet.svg?token=pGXqDCNsbwsP7nyfos9q&branch=master)](https://travis-ci.com/alexbeltran/gobacnet)
-[![GoDoc](https://godoc.org/github.com/alexbeltran/gobacnet?status.svg)](https://godoc.org/github.com/alexbeltran/gobacnet)
+[![GoDoc](https://godoc.org/github.com/devmaufh/gobacnet?status.svg)](https://godoc.org/github.com/devmaufh/gobacnet)
 
 gobacnet is a client for bacnet written exclusively with go. The goal is to
 only offer a client and a test server application.
@@ -13,7 +13,7 @@ missing and will be added overtime.
 # Installation
 Part of this library is a command line client. To install from source run:
 ```
-go get -u github.com/alexbeltran/gobacnet/baccli
+go get -u github.com/devmaufh/gobacnet/baccli
 ```
 
 For usage run:
